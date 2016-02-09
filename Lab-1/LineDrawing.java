@@ -7,8 +7,9 @@ public class LineDrawing {
 		while (true) {
 			
 			//Vänta tills användaren klickar på en musknapp
-			//Rita en linje till den punkt där användaren klickade
 			w.waitForMouseClick();
+			
+			//Rita en linje till den punkt där användaren klickade
 			w.lineTo(w.getMouseX(), w.getMouseY());
 		}
 	}
